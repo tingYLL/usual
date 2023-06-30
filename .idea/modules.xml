@@ -5,6 +5,7 @@
       <module fileurl="file://$PROJECT_DIR$/CodeTemp.iml" filepath="$PROJECT_DIR$/CodeTemp.iml" />
       <module fileurl="file://$PROJECT_DIR$/LT/LT.iml" filepath="$PROJECT_DIR$/LT/LT.iml" />
       <module fileurl="file://$PROJECT_DIR$/MyWeb/MyWeb.iml" filepath="$PROJECT_DIR$/MyWeb/MyWeb.iml" />
+      <module fileurl="file://$PROJECT_DIR$/SpringAop/SpringAop.iml" filepath="$PROJECT_DIR$/SpringAop/SpringAop.iml" />
     </modules>
   </component>
 </project>

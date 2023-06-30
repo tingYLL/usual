@@ -5,6 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="b2479427-b810-483d-bada-e3e22f79de01" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -15,6 +19,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="Interface" />
+        <option value="Kotlin Class" />
         <option value="Class" />
       </list>
     </option>
@@ -40,7 +46,9 @@
     </option>
   </component>
   <component name="ProjectId" id="2QT7juKktyAPRQzk7vsyicWD5wY" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="1" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="showLibraryContents" value="true" />
   </component>
@@ -55,28 +63,16 @@
     <property name="aspect.path.notification.shown" value="true" />
     <property name="jdk.selected.JAVA_MODULE" value="1.8" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
-    <property name="project.structure.last.edited" value="Modules" />
+    <property name="nodejs_package_manager_path" value="npm" />
+    <property name="project.structure.last.edited" value="Project" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="settings.editor.selected.configurable" value="MavenSettings" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
-  <component name="RunManager" selected="Application.LT2">
+  <component name="RunManager" selected="Application.MyTest">
     <configuration name="HJ2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.jdjm.zhy.NK.HJ2" />
-      <module name="LT" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.jdjm.zhy.NK.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="HJ3" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.jdjm.zhy.NK.HJ3" />
       <module name="LT" />
       <extension name="coverage">
         <pattern>
@@ -94,6 +90,19 @@
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="com.jdjm.zhy.lt.LT4.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MyTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.example.springaop.aop.MyTest" />
+      <module name="SpringAop" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.example.springaop.aop.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -148,6 +157,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="SpringAopApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="SpringAop" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.example.springaop.SpringAopApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="WebApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
       <module name="Web" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.jdjm.zhy.WebApplication" />
@@ -157,11 +173,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.MyTest" />
         <item itemvalue="Application.LT2" />
         <item itemvalue="Application.Solution1" />
         <item itemvalue="JUnit.Solution1.strToInt" />
         <item itemvalue="Application.HJ2" />
-        <item itemvalue="Application.HJ3" />
       </list>
     </recent_temporary>
   </component>
@@ -192,11 +208,25 @@
       <workItem from="1687061000060" duration="1193000" />
       <workItem from="1687706170645" duration="190000" />
       <workItem from="1687708183524" duration="2007000" />
+      <workItem from="1687752129741" duration="589000" />
+      <workItem from="1687757459100" duration="220000" />
+      <workItem from="1688114609841" duration="3632000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

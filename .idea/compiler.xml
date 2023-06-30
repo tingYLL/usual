@@ -9,6 +9,7 @@
         <outputRelativeToContentRoot value="true" />
         <module name="LT" />
         <module name="MyWeb" />
+        <module name="SpringAop" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
@@ -16,6 +17,7 @@
       <module name="LT" target="1.8" />
       <module name="Module01" target="8" />
       <module name="MyWeb" target="1.8" />
+      <module name="SpringAop" target="1.8" />
       <module name="TestCookie" target="1.8" />
       <module name="Web" target="1.8" />
     </bytecodeTargetLevel>
@@ -24,6 +26,7 @@
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
       <module name="LT" options="-parameters" />
       <module name="MyWeb" options="-parameters" />
+      <module name="SpringAop" options="-parameters" />
       <module name="Web" options="-parameters" />
     </option>
   </component>
