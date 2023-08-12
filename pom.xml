@@ -14,6 +14,8 @@
     <version>1.0</version>
     <modules>
         <module>MyWeb</module>
+        <module>workspace1</module>
+        <module>workspace-email</module>
     </modules>
 
     <properties>

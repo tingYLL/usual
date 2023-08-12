@@ -1,2 +1,6 @@
 server:
   port: 8081
+
+logging:
+  pattern:
+    console:

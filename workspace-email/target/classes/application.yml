@@ -1,0 +1,24 @@
+#spring:
+#  mail:
+#    host: smtp.163.com
+#    username: ahbypnvb253645@163.com
+#    password: KIUEXBTFLHWITJRC
+#    port: 25
+#    default-encoding: UTF-8
+
+
+spring:
+  mail:
+    host: smtp.163.com
+    username: jdjmzhy666@163.com
+    password: JLLKKFNEACVKGMXA
+    port: 25
+  servlet:
+    multipart:
+      # maxFileSize 单个数据大小
+      max-file-size: 10MB
+      # maxRequestSize 是总数据大小
+      max-request-size: 100MB
+
+
+
