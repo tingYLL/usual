@@ -5,19 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="b2479427-b810-483d-bada-e3e22f79de01" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/workspace-email/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/workspace1/pom.xml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../zhy-mybatis/zhy-mybatis/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CodeTemp.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/MyWeb/MyWeb.iml" beforeDir="false" afterPath="$PROJECT_DIR$/MyWeb/MyWeb.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MyWeb/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/MyWeb/src/main/resources/application.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MyWeb/target/classes/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/MyWeb/target/classes/application.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/workspace1/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/workspace1/pom.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -64,26 +54,27 @@
   <component name="ProjectViewState">
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RequestMappingsPanelOrder0&quot;: &quot;0&quot;,
-    &quot;RequestMappingsPanelOrder1&quot;: &quot;1&quot;,
-    &quot;RequestMappingsPanelWidth0&quot;: &quot;75&quot;,
-    &quot;RequestMappingsPanelWidth1&quot;: &quot;75&quot;,
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;ToolWindowRun.ShowToolbar&quot;: &quot;false&quot;,
-    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
-    &quot;jdk.selected.JAVA_MODULE&quot;: &quot;1.8&quot;,
-    &quot;last_opened_file_path&quot;: &quot;D:/Code/GitHubRepo/usual&quot;,
-    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
-    &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
-    &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;MavenSettings&quot;,
-    &quot;spring.configuration.checksum&quot;: &quot;25955de387e221ec4859ddf77293af10&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RequestMappingsPanelOrder0": "0",
+    "RequestMappingsPanelOrder1": "1",
+    "RequestMappingsPanelWidth0": "75",
+    "RequestMappingsPanelWidth1": "75",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "ToolWindowRun.ShowToolbar": "false",
+    "WebServerToolWindowFactoryState": "false",
+    "jdk.selected.JAVA_MODULE": "1.8",
+    "last_opened_file_path": "D:/Code/GitHubRepo/usual",
+    "nodejs_package_manager_path": "npm",
+    "project.structure.last.edited": "Modules",
+    "project.structure.proportion": "0.0",
+    "project.structure.side.proportion": "0.0",
+    "settings.editor.selected.configurable": "MavenSettings",
+    "spring.configuration.checksum": "25955de387e221ec4859ddf77293af10"
   }
-}</component>
-  <component name="RunManager" selected="Spring Boot.SpringBootMain">
+}]]></component>
+  <component name="RunManager" selected="Spring Boot.Context1">
     <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
       <option name="arquillianRunConfiguration">
         <value>
@@ -91,19 +82,6 @@
         </value>
       </option>
       <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="LT2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.jdjm.zhy.lt.LT2" />
-      <module name="LT" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.jdjm.zhy.lt.LT4.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -121,12 +99,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Solution1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.jdjm.zhy.lt.Solution1" />
-      <module name="LT" />
+    <configuration name="com.jdjm.zhy.Context1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.jdjm.zhy.Context1" />
+      <module name="workspace1" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.jdjm.zhy.lt.LT4.*" />
+          <option name="PATTERN" value="com.jdjm.zhy.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -156,6 +134,19 @@
     <configuration default="true" type="KotlinStandaloneScriptRunConfigurationType">
       <module name="CodeTemp" />
       <option name="filePath" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Context1" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <module name="workspace1" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.jdjm.zhy.Context1" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.jdjm.zhy.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -196,11 +187,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Spring Boot.Context1" />
+        <item itemvalue="Application.com.jdjm.zhy.Context1" />
         <item itemvalue="Spring Boot.SpringBootMain" />
         <item itemvalue="Application.com.jdjm.zhy.annotation.MyTest" />
         <item itemvalue="Application.MyTest" />
-        <item itemvalue="Application.LT2" />
-        <item itemvalue="Application.Solution1" />
       </list>
     </recent_temporary>
   </component>
@@ -241,7 +232,10 @@
       <workItem from="1691115677057" duration="2716000" />
       <workItem from="1691555160936" duration="1215000" />
       <workItem from="1691767055644" duration="9467000" />
-      <workItem from="1691832724832" duration="2378000" />
+      <workItem from="1691832724832" duration="2802000" />
+      <workItem from="1694167061565" duration="162000" />
+      <workItem from="1694186821388" duration="595000" />
+      <workItem from="1695221560830" duration="7405000" />
     </task>
     <servers />
   </component>
