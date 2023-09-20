@@ -1,17 +1,8 @@
-#spring:
-#  mail:
-#    host: smtp.163.com
-#    username: ahbypnvb253645@163.com
-#    password: KIUEXBTFLHWITJRC
-#    port: 25
-#    default-encoding: UTF-8
-
-
 spring:
   mail:
     host: smtp.163.com
-    username: jdjmzhy666@163.com
-    password: JLLKKFNEACVKGMXA
+    username: 
+    password:
     port: 25
   servlet:
     multipart:
