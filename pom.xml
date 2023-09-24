@@ -16,6 +16,7 @@
         <module>MyWeb</module>
         <module>workspace1</module>
         <module>workspace-email</module>
+        <module>workspace-easypoi</module>
     </modules>
 
     <properties>
