@@ -12,8 +12,10 @@ public class MyTest {
             boolean bool = method.isAnnotationPresent(myAnnotation.class);
 //            System.out.println("method:"+method+":"+bool);
             if(bool){
-//                method.invoke(aClass.getConstructor(null).newInstance(null),"jdjm");
-                method.invoke(new CustomAnnotation());
+
+                //第一个参数是要调用方法的对象;第二个参数是方法的参数（可选
+                method.invoke(aClass.getConstructor(null).newInstance(null),"jdjm");
+//                method.invoke(new CustomAnnotation(),"jdjm");
             }
 
         }
