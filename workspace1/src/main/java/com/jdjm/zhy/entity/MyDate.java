@@ -5,9 +5,10 @@ import lombok.Data;
 import lombok.NoArgsConstructor;
 
 @Data
-@NoArgsConstructor
 @AllArgsConstructor
-public class Emplpyee {
-    private Integer age;
-    private String name;
+@NoArgsConstructor
+public class MyDate {
+    private String year;
+    private String month;
+    private String day;
 }
