@@ -1,0 +1,38 @@
+package com.jdjm.zhy.learn;
+
+import java.util.concurrent.ArrayBlockingQueue;
+import java.util.concurrent.ThreadPoolExecutor;
+import java.util.concurrent.TimeUnit;
+
+public class LearnThreadPool {
+    public static void main(String[] args) {
+        testPool2();
+    }
+
+    public static void testPool2(){
+
+        //创建线程池对象
+//        ThreadPoolExecutor threadPool2 = new ThreadPoolExecutor(2, 3, 1,
+//                TimeUnit.MINUTES, new ArrayBlockingQueue<>(2),
+//                (x)->{
+//                    Thread thread = new Thread();
+//                    return thread;
+//                });
+
+        //创建线程池对象
+        ThreadPoolExecutor threadPool = new ThreadPoolExecutor(2, 3, 1,
+                TimeUnit.MINUTES, new ArrayBlockingQueue<>(2));
+
+        //创建任务
+        Runnable runnable = ()->{
+            System.out.println(Thread.currentThread().getName());
+        };
+
+        //往线程池提交了6个任务 会触发拒绝策略
+        for (int i = 0; i < 6; i++) {
+            threadPool.execute(runnable);
+        }
+//        threadPool.execute(runnable);
+
+    }
+}
