@@ -17,6 +17,7 @@
         <module>workspace1</module>
         <module>workspace-email</module>
         <module>workspace-easypoi</module>
+        <module>workspace-testDocker</module>
     </modules>
 
     <properties>
