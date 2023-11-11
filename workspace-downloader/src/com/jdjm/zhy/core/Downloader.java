@@ -34,6 +34,8 @@ public class Downloader {
                 return ;
             }
              downloadInfoThread = new DownloadInfoThread(httpURLConnection.getContentLength());
+
+            //延迟1s开始执行 每1s执行一次 输出下载信息
             scheduledExecutorService.scheduleAtFixedRate(downloadInfoThread,1,1, TimeUnit.SECONDS);
         } catch (IOException e) {
             e.printStackTrace();
