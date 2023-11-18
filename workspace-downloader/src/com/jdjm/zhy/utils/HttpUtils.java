@@ -28,4 +28,25 @@ public class HttpUtils {
         int index = url.lastIndexOf("/");
         return url.substring(index + 1);
     }
+
+
+    /**
+     * 分块下载
+     * @param url 下载地址
+     * @param startPos 文件下载起始位置
+     * @param endPos  结束位置
+     * @return
+     */
+    public static HttpURLConnection getHttpURLConnection(String url,long startPos,long endPos) throws IOException {
+        HttpURLConnection httpURLConnection  = getHttpURLConnection(url);
+
+        //结束位置不等于0说明是
+        if(endPos !=0){
+            httpURLConnection.setRequestProperty("RANGE","bytes="+startPos+"-"+endPos);
+        }else{
+            httpURLConnection.setRequestProperty("RANGE","bytes="+startPos+"-");
+        }
+
+        return httpURLConnection;
+    }
 }
