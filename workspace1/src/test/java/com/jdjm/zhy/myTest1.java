@@ -5,8 +5,10 @@ import com.jdjm.zhy.entity.MyDate;
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;
 
+import javax.swing.text.html.Option;
 import java.lang.reflect.Array;
 import java.util.*;
+import java.util.stream.Collectors;
 
 @SpringBootTest
 public class myTest1 {
@@ -49,6 +51,7 @@ public class myTest1 {
         System.out.println(list);
     }
 
+    //使用Stream流做规约 reduce操作
     @Test
     public void testStreamReduce2(){
         List<Integer> list = Arrays.asList(1,2,3,4,5);
@@ -62,5 +65,60 @@ public class myTest1 {
         Integer result = list.stream().reduce(0, (a, b) -> a + b);
         System.out.println(result);
 
+    }
+
+
+    //使用Stream流做分组操作
+    @Test
+    public void testStreamGroup(){
+        List<String> list = Arrays.asList("apple","banana","orange");
+        Map<Integer,List<String>> map = new HashMap<>();
+        for (String s : list) {
+            int length = s.length();
+            if(!map.containsKey(length)){
+                map.put(length,new ArrayList<>());
+            }
+            map.get(length).add(s);
+        }
+
+        //下面这行操作等价于上面的
+        Map<Integer, List<String>> map2 = list.stream().collect(Collectors.groupingBy(s -> s.length()));
+        System.out.println(map);
+        System.out.println(map2);
+    }
+
+    //Optional , filter操作
+    @Test
+    public void test3(){
+        String s = "hello world!";
+        List<String> list = Arrays.asList("apple","banana","orange");
+        if(s!=null){
+            System.out.println(s.toUpperCase());
+        }
+
+        //下面的 操作等价于上面3行
+        Optional.ofNullable(s).map(x->x.toUpperCase()).ifPresent(System.out::println);
+
+        List<String> a = list.stream().filter(x -> x.startsWith("a")).map(x -> x.toUpperCase()).sorted().collect(Collectors.toList());
+    }
+
+    //Collections.sort()方法
+    public void test4(){
+
+
+        List<String> list = Arrays.asList("apple","banana","orange");
+
+        //接下来要为list定义一个排序规则
+
+        //传统写法
+        Collections.sort(list, new Comparator<String>() {
+            @Override
+            public int compare(String o1, String o2) {
+                return 0;
+            }
+        });
+
+        //lambda写法
+        Collections.sort(list,(o1,o2)->o1.compareTo(o2));
     }
 }
