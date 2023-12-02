@@ -5,10 +5,8 @@ import com.jdjm.zhy.entity.MyDate;
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;
 
-import java.util.HashMap;
-import java.util.Map;
-import java.util.Set;
-import java.util.TreeSet;
+import java.lang.reflect.Array;
+import java.util.*;
 
 @SpringBootTest
 public class myTest1 {
@@ -40,5 +38,29 @@ public class myTest1 {
 
         //输出的结果是按照自定义的排序规则进行排序的
         System.out.println(set);
+    }
+
+    @Test
+    public void testStreamReduce(){
+        List<Integer> list = Arrays.asList(1,2,3,4,5);
+        Optional<Integer> reduce = list.stream().reduce((a, b) -> a + b);
+        Integer integer = reduce.get();
+
+        System.out.println(list);
+    }
+
+    @Test
+    public void testStreamReduce2(){
+        List<Integer> list = Arrays.asList(1,2,3,4,5);
+
+        int sum = 0;
+        for (Integer a : list) {
+            sum += a;
+        }
+
+        //a相当于sum  这里的0是赋初始值 相当于int sum = 0
+        Integer result = list.stream().reduce(0, (a, b) -> a + b);
+        System.out.println(result);
+
     }
 }
