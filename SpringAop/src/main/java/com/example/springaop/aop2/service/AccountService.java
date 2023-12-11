@@ -7,4 +7,5 @@ public interface AccountService extends IService<Account> {
     boolean save();
 
     void aopAnnotationTest();
+    void aopAnnotationTest2();
 }

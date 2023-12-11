@@ -19,4 +19,9 @@ class SpringAopApplicationTests {
 //        accountService.save();
         accountService.aopAnnotationTest();
     }
+
+    @Test
+    void test2(){
+        accountService.aopAnnotationTest2();
+    }
 }
