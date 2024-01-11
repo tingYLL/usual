@@ -7,6 +7,7 @@ import com.jdjm.zhy.utils.LogUtils;
 
 import java.io.*;
 import java.net.HttpURLConnection;
+import java.util.concurrent.ExecutorService;
 import java.util.concurrent.Executors;
 import java.util.concurrent.ScheduledExecutorService;
 import java.util.concurrent.TimeUnit;
@@ -14,8 +15,11 @@ import java.util.concurrent.TimeUnit;
 public class Downloader {
 
     public ScheduledExecutorService scheduledExecutorService = Executors.newScheduledThreadPool(1);
+    public ExecutorService executorService = Executors.newFixedThreadPool(1);
+
 
     public void download(String url){
+
         //获取文件名
         String httpFileName = HttpUtils.getHttpFileName(url);
         //文件下载路径

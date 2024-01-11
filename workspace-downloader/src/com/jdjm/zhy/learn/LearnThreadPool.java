@@ -5,7 +5,7 @@ import java.util.concurrent.ThreadPoolExecutor;
 import java.util.concurrent.TimeUnit;
 
 public class LearnThreadPool {
-    public static void main(String[] args) {
+    public static void main(String[] args) throws InterruptedException {
         testPool2();
     }
 
@@ -45,7 +45,6 @@ public class LearnThreadPool {
                 }
 
             }
-
         }
 
     }

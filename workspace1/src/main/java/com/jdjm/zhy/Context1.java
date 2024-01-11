@@ -1,8 +1,11 @@
 package com.jdjm.zhy;
 
 
-import com.jdjm.zhy.entity.Student;
+import com.jdjm.zhy.entity.TStudent;
+import com.jdjm.zhy.testTransactional.TestTransaction;
 import com.jdjm.zhy.utils.SpringContextUtils;
+import org.mybatis.spring.annotation.MapperScan;
+import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
@@ -11,11 +14,6 @@ public class Context1 {
 
     public static void main(String[] args) {
         SpringApplication.run(Context1.class, args);
-
-        Student student = (Student)SpringContextUtils.getBean("student");
-//        Student student = (Student)SpringContextUtils.getBean(Student.class);
-        student.setName("jjjj");
-        System.out.println(student);
     }
 
 }

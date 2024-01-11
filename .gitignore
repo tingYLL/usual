@@ -71,3 +71,4 @@ pnpm-debug.log*
 
 package-lock.json
 yarn.lock
+SpringAop/src/main/resources/application.yml

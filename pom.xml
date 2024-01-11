@@ -18,6 +18,8 @@
         <module>workspace-email</module>
         <module>workspace-easypoi</module>
         <module>workspace-testDocker</module>
+        <module>workspace2</module>
+        <module>workspace-common</module>
     </modules>
 
     <properties>
