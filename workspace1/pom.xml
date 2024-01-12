@@ -13,6 +13,12 @@
 
     <dependencies>
         <dependency>
+            <groupId>eu.bitwalker</groupId>
+            <artifactId>UserAgentUtils</artifactId>
+            <version>1.21</version>
+        </dependency>
+
+        <dependency>
             <groupId>com.jdjm.zhy</groupId>
             <artifactId>workspace-common</artifactId>
             <version>1.0</version>
